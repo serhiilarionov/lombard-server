@@ -1,0 +1,262 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'sequelize',
+1 verbose cli   '2.0.3' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose node symlink /usr/bin/node
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'sequelize', null ]
+7 verbose cache add name=undefined spec="sequelize" args=["sequelize",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'sequelize',
+8 verbose parsed url   path: 'sequelize',
+8 verbose parsed url   href: 'sequelize' }
+9 verbose cache add [ '2.0.3', null ]
+10 verbose cache add name=undefined spec="2.0.3" args=["2.0.3",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: '2.0.3',
+11 verbose parsed url   path: '2.0.3',
+11 verbose parsed url   href: '2.0.3' }
+12 silly lockFile 35595a70-sequelize sequelize
+13 verbose lock sequelize /home/sergey/.npm/35595a70-sequelize.lock
+14 silly lockFile d20e6b79-2-0-3 2.0.3
+15 verbose lock 2.0.3 /home/sergey/.npm/d20e6b79-2-0-3.lock
+16 silly lockFile 35595a70-sequelize sequelize
+17 silly lockFile 35595a70-sequelize sequelize
+18 silly lockFile d20e6b79-2-0-3 2.0.3
+19 silly lockFile d20e6b79-2-0-3 2.0.3
+20 verbose addNamed [ 'sequelize', '' ]
+21 verbose addNamed [ null, '*' ]
+22 silly lockFile 57143dcb-sequelize sequelize@
+23 verbose lock sequelize@ /home/sergey/.npm/57143dcb-sequelize.lock
+24 verbose addNamed [ '2.0.3', '' ]
+25 verbose addNamed [ null, '*' ]
+26 silly lockFile 4f2f3e27-2-0-3 2.0.3@
+27 verbose lock 2.0.3@ /home/sergey/.npm/4f2f3e27-2-0-3.lock
+28 silly addNameRange { name: 'sequelize', range: '*', hasData: false }
+29 silly addNameRange { name: '2.0.3', range: '*', hasData: false }
+30 verbose request where is /2.0.3
+31 verbose request registry https://registry.npmjs.org/
+32 verbose request id 34687c4a5b132697
+33 verbose url raw /2.0.3
+34 verbose url resolving [ 'https://registry.npmjs.org/', './2.0.3' ]
+35 verbose url resolved https://registry.npmjs.org/2.0.3
+36 verbose request where is https://registry.npmjs.org/2.0.3
+37 info trying registry request attempt 1 at 15:39:26
+38 http GET https://registry.npmjs.org/2.0.3
+39 verbose request where is /sequelize
+40 verbose request registry https://registry.npmjs.org/
+41 verbose url raw /sequelize
+42 verbose url resolving [ 'https://registry.npmjs.org/', './sequelize' ]
+43 verbose url resolved https://registry.npmjs.org/sequelize
+44 verbose request where is https://registry.npmjs.org/sequelize
+45 info trying registry request attempt 1 at 15:39:26
+46 verbose etag "KFIN99X2ZBS5JKLN24R539ZZ"
+47 http GET https://registry.npmjs.org/sequelize
+48 http 304 https://registry.npmjs.org/sequelize
+49 silly registry.get cb [ 304,
+49 silly registry.get   { date: 'Tue, 24 Mar 2015 13:39:26 GMT',
+49 silly registry.get     server: 'Apache',
+49 silly registry.get     via: '1.1 varnish',
+49 silly registry.get     'last-modified': 'Tue, 24 Mar 2015 13:39:26 GMT',
+49 silly registry.get     'cache-control': 'max-age=60',
+49 silly registry.get     etag: '"KFIN99X2ZBS5JKLN24R539ZZ"',
+49 silly registry.get     age: '60',
+49 silly registry.get     'x-served-by': 'cache-fra1236-FRA',
+49 silly registry.get     'x-cache': 'HIT',
+49 silly registry.get     'x-cache-hits': '1',
+49 silly registry.get     'x-timer': 'S1427204366.381050,VS0,VE1',
+49 silly registry.get     vary: 'Accept',
+49 silly registry.get     'content-length': '0',
+49 silly registry.get     'keep-alive': 'timeout=10, max=50',
+49 silly registry.get     connection: 'Keep-Alive' } ]
+50 verbose etag https://registry.npmjs.org/sequelize from cache
+51 silly addNameRange number 2 { name: 'sequelize', range: '*', hasData: true }
+52 silly addNameRange versions [ 'sequelize',
+52 silly addNameRange   [ '0.2.2',
+52 silly addNameRange     '0.2.3',
+52 silly addNameRange     '0.2.4',
+52 silly addNameRange     '0.2.5',
+52 silly addNameRange     '0.2.6',
+52 silly addNameRange     '0.3.0',
+52 silly addNameRange     '0.4.0',
+52 silly addNameRange     '0.4.1',
+52 silly addNameRange     '0.4.2',
+52 silly addNameRange     '0.4.3',
+52 silly addNameRange     '1.0.0',
+52 silly addNameRange     '1.0.1',
+52 silly addNameRange     '1.0.2',
+52 silly addNameRange     '1.1.0',
+52 silly addNameRange     '1.1.1',
+52 silly addNameRange     '1.1.2',
+52 silly addNameRange     '1.1.3',
+52 silly addNameRange     '1.1.4',
+52 silly addNameRange     '1.2.0',
+52 silly addNameRange     '1.2.1',
+52 silly addNameRange     '1.3.0',
+52 silly addNameRange     '1.3.1',
+52 silly addNameRange     '1.3.2',
+52 silly addNameRange     '1.3.3',
+52 silly addNameRange     '1.3.4',
+52 silly addNameRange     '1.3.5',
+52 silly addNameRange     '1.3.6',
+52 silly addNameRange     '1.3.7',
+52 silly addNameRange     '1.4.0',
+52 silly addNameRange     '1.4.1',
+52 silly addNameRange     '1.5.0-alpha',
+52 silly addNameRange     '1.5.0-beta',
+52 silly addNameRange     '1.5.0-beta-2',
+52 silly addNameRange     '1.5.0',
+52 silly addNameRange     '1.6.0-alpha-1',
+52 silly addNameRange     '1.6.0-alpha-2',
+52 silly addNameRange     '1.6.0-alpha-3',
+52 silly addNameRange     '1.6.0-beta-1',
+52 silly addNameRange     '1.6.0-beta-2',
+52 silly addNameRange     '1.6.0-beta-3',
+52 silly addNameRange     '1.6.0-beta4',
+52 silly addNameRange     '1.6.0',
+52 silly addNameRange     '1.7.0-alpha1',
+52 silly addNameRange     '1.7.0-alpha2',
+52 silly addNameRange     '2.0.0-alpha1',
+52 silly addNameRange     '2.0.0-alpha2',
+52 silly addNameRange     '1.7.0-alpha3',
+52 silly addNameRange     '2.0.0-alpha3',
+52 silly addNameRange     '1.7.0-beta.0',
+52 silly addNameRange     '2.0.0-beta.0',
+52 silly addNameRange     '1.7.0-beta.1',
+52 silly addNameRange     '2.0.0-beta.1',
+52 silly addNameRange     '1.7.0-beta.2',
+52 silly addNameRange     '2.0.0-beta.2',
+52 silly addNameRange     '1.7.0-beta.3b',
+52 silly addNameRange     '2.0.0-beta.3',
+52 silly addNameRange     '1.7.0-beta.4a',
+52 silly addNameRange     '2.0.0-beta.4',
+52 silly addNameRange     '1.7.0-beta.5',
+52 silly addNameRange     '2.0.0-beta.5',
+52 silly addNameRange     '1.7.0-beta6',
+52 silly addNameRange     '2.0.0-beta.6',
+52 silly addNameRange     '1.7.0-beta7',
+52 silly addNameRange     '2.0.0-beta.7',
+52 silly addNameRange     '2.0.0-beta.8',
+52 silly addNameRange     '1.7.0-beta8',
+52 silly addNameRange     '1.7.0-rc1',
+52 silly addNameRange     '2.0.0-dev1',
+52 silly addNameRange     '1.7.0-rc2',
+52 silly addNameRange     '2.0.0-dev2',
+52 silly addNameRange     '1.7.0-rc3',
+52 silly addNameRange     '2.0.0-dev3',
+52 silly addNameRange     '1.7.0-rc4',
+52 silly addNameRange     '2.0.0-dev4',
+52 silly addNameRange     '2.0.0-dev5',
+52 silly addNameRange     '1.7.0-rc5',
+52 silly addNameRange     '1.7.0-rc6',
+52 silly addNameRange     '2.0.0-dev6',
+52 silly addNameRange     '2.0.0-dev7',
+52 silly addNameRange     '1.7.0-rc7',
+52 silly addNameRange     '2.0.0-dev8',
+52 silly addNameRange     '1.7.0-rc8',
+52 silly addNameRange     '1.7.0-rc9',
+52 silly addNameRange     '2.0.0-dev9',
+52 silly addNameRange     '2.0.0-dev10',
+52 silly addNameRange     '1.7.0',
+52 silly addNameRange     '1.7.1',
+52 silly addNameRange     '1.7.2',
+52 silly addNameRange     '1.7.3',
+52 silly addNameRange     '2.0.0-dev11',
+52 silly addNameRange     '1.7.4',
+52 silly addNameRange     '1.7.5',
+52 silly addNameRange     '1.7.7',
+52 silly addNameRange     '1.7.8',
+52 silly addNameRange     '1.7.9',
+52 silly addNameRange     '2.0.0-dev12',
+52 silly addNameRange     '1.7.10',
+52 silly addNameRange     '2.0.0-dev13',
+52 silly addNameRange     '2.0.0-rc1',
+52 silly addNameRange     '2.0.0-rc2',
+52 silly addNameRange     '2.0.0-rc3',
+52 silly addNameRange     '2.0.0-rc4',
+52 silly addNameRange     '2.0.0-rc5',
+52 silly addNameRange     '2.0.0-rc6',
+52 silly addNameRange     '2.0.0-rc7',
+52 silly addNameRange     '2.0.0-rc8',
+52 silly addNameRange     '2.0.0',
+52 silly addNameRange     '2.0.1',
+52 silly addNameRange     '2.0.2',
+52 silly addNameRange     '2.0.3',
+52 silly addNameRange     '2.0.4',
+52 silly addNameRange     '2.0.5' ] ]
+53 verbose addNamed [ 'sequelize', '2.0.5' ]
+54 verbose addNamed [ '2.0.5', '2.0.5' ]
+55 silly lockFile cc5a5ac4-sequelize-2-0-5 sequelize@2.0.5
+56 verbose lock sequelize@2.0.5 /home/sergey/.npm/cc5a5ac4-sequelize-2-0-5.lock
+57 silly lockFile cc5a5ac4-sequelize-2-0-5 sequelize@2.0.5
+58 silly lockFile cc5a5ac4-sequelize-2-0-5 sequelize@2.0.5
+59 silly lockFile 57143dcb-sequelize sequelize@
+60 silly lockFile 57143dcb-sequelize sequelize@
+61 http 404 https://registry.npmjs.org/2.0.3
+62 verbose headers { date: 'Tue, 24 Mar 2015 13:39:27 GMT',
+62 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+62 verbose headers   'content-type': 'application/json',
+62 verbose headers   'cache-control': 'max-age=0',
+62 verbose headers   'content-length': '51',
+62 verbose headers   'accept-ranges': 'bytes',
+62 verbose headers   via: '1.1 varnish',
+62 verbose headers   age: '0',
+62 verbose headers   'x-served-by': 'cache-fra1220-FRA',
+62 verbose headers   'x-cache': 'MISS',
+62 verbose headers   'x-cache-hits': '0',
+62 verbose headers   'x-timer': 'S1427204366.376055,VS0,VE702',
+62 verbose headers   'keep-alive': 'timeout=10, max=50',
+62 verbose headers   connection: 'Keep-Alive' }
+63 silly registry.get cb [ 404,
+63 silly registry.get   { date: 'Tue, 24 Mar 2015 13:39:27 GMT',
+63 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+63 silly registry.get     'content-type': 'application/json',
+63 silly registry.get     'cache-control': 'max-age=0',
+63 silly registry.get     'content-length': '51',
+63 silly registry.get     'accept-ranges': 'bytes',
+63 silly registry.get     via: '1.1 varnish',
+63 silly registry.get     age: '0',
+63 silly registry.get     'x-served-by': 'cache-fra1220-FRA',
+63 silly registry.get     'x-cache': 'MISS',
+63 silly registry.get     'x-cache-hits': '0',
+63 silly registry.get     'x-timer': 'S1427204366.376055,VS0,VE702',
+63 silly registry.get     'keep-alive': 'timeout=10, max=50',
+63 silly registry.get     connection: 'Keep-Alive' } ]
+64 silly lockFile 4f2f3e27-2-0-3 2.0.3@
+65 silly lockFile 4f2f3e27-2-0-3 2.0.3@
+66 error 404 404 Not Found: 2.0.3
+66 error 404
+66 error 404 '2.0.3' is not in the npm registry.
+66 error 404 You should bug the author to publish it
+66 error 404 It was specified as a dependency of 'WebLombardFront'
+66 error 404
+66 error 404 Note that you can also install from a
+66 error 404 tarball, folder, or http url, or git url.
+67 error System Linux 3.2.0-74-generic
+68 error command "/usr/bin/node" "/usr/bin/npm" "install" "--save" "sequelize" "2.0.3"
+69 error cwd /var/www/web-lombard-server
+70 error node -v v0.10.33
+71 error npm -v 1.4.28
+72 error code E404
+73 verbose exit [ 1, true ]
